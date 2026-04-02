@@ -1,0 +1,43 @@
+{
+  "name": "@velocity-bpa/n8n-nodes-convex-finance",
+  "version": "1.0.0",
+  "description": "n8n community node for Convex Finance - Handles Convex pool data, CVX staking, vlCVX governance, rewards, and protocol analytics",
+  "license": "bsl-catalog",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint nodes credentials",
+    "lintfix": "eslint nodes credentials --fix"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@9.1.4",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "eslint": "^8.56.0",
+    "n8n-workflow": "*",
+    "typescript": "^5.5.3",
+    "gulp": "^4.0.2",
+    "prettier": "^3.3.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "@types/jest": "^29.5.12",
+    "eslint-plugin-n8n-nodes-base": "^1.16.1"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "keywords": [
+    "n8n-community-node-package"
+  ]
+}
