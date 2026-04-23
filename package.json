@@ -2,7 +2,7 @@
   "name": "@velocity-bpa/n8n-nodes-convex-finance",
   "version": "1.0.0",
   "description": "n8n community node for Convex Finance - Handles Convex pool data, CVX staking, vlCVX governance, rewards, and protocol analytics",
-  "license": "bsl-catalog",
+  "license": "SEE LICENSE IN LICENSE.md",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -22,7 +22,7 @@
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.15.0",
     "eslint": "^8.56.0",
-    "n8n-workflow": "*",
+    "n8n-workflow": "1.57.0",
     "typescript": "^5.5.3",
     "gulp": "^4.0.2",
     "prettier": "^3.3.2",
